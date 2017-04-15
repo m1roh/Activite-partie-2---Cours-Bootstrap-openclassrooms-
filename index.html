@@ -37,6 +37,32 @@
         padding: 10px 10px 0 10px;
       }
 
+      .jumbotron {
+        background-color: #eef;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-bottom: 0;
+      }
+
+      .container {
+        padding-right: 0;
+        padding-left: 0;
+      }
+
+      h1 {
+        font-size: 130%;
+        margin-bottom: 10px;
+      }
+
+      .btn {
+        margin-top: 5%;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        padding-right: 6%;
+        font-size: 0.6em;
+      }
+
       /* Styles pour les tablettes */
       @media (min-width: 768px) {
         #left{
@@ -61,33 +87,37 @@
 
   </head>
 
-  <body>
+  <body class="container-fluid  text-center">
 
-    <header>
-      <a href="#"><img src="assets/img/maison.png" alt="logo"></a>
-      <h1>La maison de l'architecte</h1>        
-    </header>
+    <div class="row">
+      <header class="jumbotron">
+        <div class="container">
+          <a href="#" class="hidden-xs pull-left"><img src="assets/img/maison.png" alt="logo"></a>
+          <h1>La maison de l'architecte</h1>
+        </div>  
+      </header>
 
-    <nav>
-      <div id="left">
-        <a href="#"><img src="assets/img/city1.jpg" alt="Nos réalisations"></a>
-      </div>
-      <div id="side1">
-        <a href="#"><img src="assets/img/side1.jpg" alt="Nos projets"></a>
-      </div>
-      <div id="side2">
-        <a href="#"><img src="assets/img/side2.jpg" alt="Notre ambition"></a>
-      </div>
-    </nav>
+      <nav>
+        <div id="left">
+          <a href="#"><img src="assets/img/city1.jpg" alt="Nos réalisations"></a>
+        </div>
+        <div id="side1">
+          <a href="#"><img src="assets/img/side1.jpg" alt="Nos projets"></a>
+        </div>
+        <div id="side2">
+          <a href="#"><img src="assets/img/side2.jpg" alt="Notre ambition"></a>
+        </div>
+      </nav>
 
-    <footer>
-      <a class="btn btn-primary" href="#"><i class="fa fa-twitter fa-2x"></i></a>
-      <a class="btn btn-primary" href="#"><i class="fa fa-facebook fa-2x"></i></a>
-      <a class="btn btn-primary" href="#"><i class="fa fa-google-plus fa-2x"></i></a>
-      <a class="btn btn-primary" href="#"><i class="fa fa-flickr fa-2x"></i></a>
-      <a class="btn btn-primary" href="#"><i class="fa fa-spotify fa-2x"></i></a>
-    </footer>
-
+      <footer>
+        <a class="btn btn-primary" href="#"><i class="fa fa-twitter fa-2x"></i></a>
+        <a class="btn btn-primary" href="#"><i class="fa fa-facebook fa-2x"></i></a>
+        <a class="btn btn-primary" href="#"><i class="fa fa-google-plus fa-2x"></i></a>
+        <a class="btn btn-primary" href="#"><i class="fa fa-flickr fa-2x"></i></a>
+        <a class="btn btn-primary" href="#"><i class="fa fa-spotify fa-2x"></i></a>
+      </footer>
+    </div>
+    
   </body>
 
 </html>
