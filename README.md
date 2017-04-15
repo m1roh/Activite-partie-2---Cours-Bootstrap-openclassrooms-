@@ -31,8 +31,8 @@ Sur tablette, on désire l'aspect suivant :
 Sur smartphone, on désire l'aspect suivant :
 
     - une entête avec le titre centré mais sans le logo,
-    - un corps avec les 3 images empilées, celles-ci séparées par une petite marge, avec également une petite marge par 
-      rapport au bord de l’écran,
+    - un corps avec les 3 images empilées, celles-ci séparées par une petite marge, avec également une petite marge 
+      par rapport au bord de l’écran,
     - un pied de page avec 5 boutons centrés pour les liens sociaux.
 
 
