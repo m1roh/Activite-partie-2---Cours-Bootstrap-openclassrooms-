@@ -33,7 +33,11 @@
       }
 
       /* Styles pour les smartphones */
-      #left, #side1, #side2 {
+      #left {
+        padding: 0 0 10px 0;
+      }      
+      
+      #side1, #side2 {
         padding: 10px 10px 0 10px;
       }
 
@@ -50,17 +54,21 @@
       }
 
       h1 {
-        font-size: 130%;
+        font-size: 140%;
         margin-bottom: 10px;
       }
 
       .btn {
         margin-top: 5%;
-        width: 30px;
-        height: 30px;
+        /*width: 30px;
+        height: 30px;*/
         border-radius: 50%;
-        padding-right: 6%;
-        font-size: 0.6em;
+        /*padding-right: 6%;*/
+        /*font-size: 0.6em;*/
+      }
+
+      .fa-2x {
+        font-size: 1.2em;
       }
 
       /* Styles pour les tablettes */
@@ -74,8 +82,47 @@
         #side2 {
           padding: 10px 0 0 5px;
         }
-        header {
+
+        body {
           padding: 0;
+        }
+
+        .row {
+          margin: 0;
+        }
+        header {
+          /*margin: 0;*/
+          padding: 3% 4% 4% 4%;
+        }
+
+        .jumbotron {
+          padding-left: 0;
+        }
+
+        .container {
+          margin: 0;
+        }
+
+        .container-fluid {
+          padding: 0;
+        }
+
+        #logo {
+          width: 70%;
+          margin: 20% 0 0 -60%;
+
+        }
+
+        #title {
+          padding: 0 10% 0 0;
+        }
+
+        .btn {
+          margin-top: 2%;
+        }
+
+        .fa-2x {
+          font-size: 2em;
         }
       }
 
@@ -96,8 +143,8 @@
       <header class="jumbotron">
         <div class="row">
           <div class="container">
-            <a href="#" class="hidden-xs pull-left"><img src="assets/img/maison.png" alt="logo"></a>
-            <h1>La maison de l'architecte</h1>
+            <a href="#" class="hidden-xs pull-left"><img src="assets/img/maison.png" alt="logo" id="logo"></a>
+            <h1 id="title" class="col-sm-10">La maison de l'architecte</h1>
           </div>
         </div>
           
@@ -107,12 +154,15 @@
         <div id="left">
           <a href="#"><img src="assets/img/city1.jpg" alt="Nos réalisations"></a>
         </div>
-        <div id="side1">
-          <a href="#"><img src="assets/img/side1.jpg" alt="Nos projets"></a>
+        <div class="row">
+          <div class="col-sm-6" id="side1">
+            <a href="#"><img src="assets/img/side1.jpg" alt="Nos projets"></a>
+          </div>
+          <div class="col-sm-6" id="side2">
+            <a href="#"><img src="assets/img/side2.jpg" alt="Notre ambition"></a>
+          </div>
         </div>
-        <div id="side2">
-          <a href="#"><img src="assets/img/side2.jpg" alt="Notre ambition"></a>
-        </div>
+        
       </nav>
 
       <footer>
