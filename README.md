@@ -23,8 +23,8 @@ Sur grand et moyen écran, on désire l'aspect suivant :
 Sur tablette, on désire l'aspect suivant :
 
     - une entête avec le logo à gauche et le titre centré,
-    - un corps avec 3 images, celles-ci séparées par une petite marge, cette fois les deux petites images doivent venir 
-      sous la grande, et aucune marge sur les côtés,
+    - un corps avec 3 images, celles-ci séparées par une petite marge, cette fois les deux petites images doivent 
+      venir sous la grande, et aucune marge sur les côtés,
     - un pied de page avec 5 boutons centrés pour les liens sociaux.
  
 
